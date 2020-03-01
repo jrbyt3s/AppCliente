@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.NoActionBarLogin">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/colorAzulcorp</item>
+
+        <item name="android:colorControlNormal">@color/colorAzulcorp</item>
+        <item name="android:colorControlActivated">@color/colorAzulPrimaryDark</item>
+        <item name="android:colorControlHighlight">@color/colorAzulPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
 </resources>
